@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@900&family=Poppins:wght@300;700&display=swap');
+
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.card-body {
+    position: absolute;
+    display: flex;
+    border: 2px solid rgba(255, 255, 255, 0.468);
+    border-radius: 4px;
+
+
+}
+
+.card-img img {
+    width: 70px;
+}
+
+.card-text-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textName {
+    font-family: 'Martel', sans-serif;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+}
+
+.downloadingShow {
+    color: rgb(58, 58, 255);
+    font-weight: 2px;
+}
+
+.ShowDownloadGif img {
+    width: 3rem;
+    padding-top: 25px;
+
+}
